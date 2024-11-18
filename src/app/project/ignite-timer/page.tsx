@@ -17,11 +17,7 @@ export default function IgniteTimer() {
           Ignite-timer
         </h1>
 
-        <p className="text-neutral-400 mt-4">
-          I really like toolbars and wanted to create a voice chat combining
-          design and animations. It was a fun challenge to create and I'm happy
-          with the result.
-        </p>
+        <p className="text-neutral-400 mt-4">.</p>
       </div>
     </div>
   )
