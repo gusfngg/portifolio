@@ -11,11 +11,11 @@ export default function AlmeidaTerraplenagem() {
       <ButtonBack />
 
       <div>
-        <h1 className="text-lg text-primary font-semibold leading-none">
+        <h1 className="text-base text-primary font-semibold leading-none">
           Almeida terraplenagem
         </h1>
 
-        <p className="text-neutral-700 dark:text-neutral-400 mt-4">
+        <p className="text-neutral-700 text-sm md:text-base dark:text-neutral-400 mt-4">
           A Almeida Terraplenagem é uma empresa especializada em serviços de
           terraplenagem, que atua com qualidade e precisão no preparo de
           terrenos para construções, pavimentações e projetos de infraestrutura.
@@ -24,7 +24,7 @@ export default function AlmeidaTerraplenagem() {
           segurança e a eficácia em todas as etapas do processo.
         </p>
 
-        <p className="text-neutral-700 dark:text-neutral-400 mt-4">
+        <p className="text-neutral-700 text-sm md:text-base dark:text-neutral-400 mt-4">
           Aplicação feita com as tecnologias mais recentes do mercado. As
           principais são: - Next.js, TypeScript, Shadcn ui...
         </p>

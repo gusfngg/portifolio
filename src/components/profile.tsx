@@ -16,10 +16,10 @@ export function Profile() {
 
       <div>
         <BlurFade inView>
-          <h1 className="text-xl font-semibold">Gustavo Camargo</h1>
+          <h1 className="text-lg font-semibold">Gustavo Camargo</h1>
         </BlurFade>
         <BlurFade inView>
-          <span className="text-neutral-600 dark:text-neutral-300 font-mono text-base">
+          <span className="text-neutral-600 dark:text-neutral-300 font-mono text-sm">
             fullstack engineer
           </span>
         </BlurFade>
