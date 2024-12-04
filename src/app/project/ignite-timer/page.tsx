@@ -1,16 +1,9 @@
-import Link from 'next/link'
-import { Undo2 } from 'lucide-react'
+import { ButtonBack } from '@/components/button-back'
 
 export default function IgniteTimer() {
   return (
     <div>
-      <Link
-        className="flex items-center gap-2 absolute left-[19rem]"
-        href={'/'}
-      >
-        <Undo2 size={12} />
-        <span className="text-sm font-medium">back</span>
-      </Link>
+      <ButtonBack />
 
       <div>
         <h1 className="text-lg text-primary font-medium leading-none">

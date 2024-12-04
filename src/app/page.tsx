@@ -17,27 +17,46 @@ export default function Home() {
 
       <div className="flex flex-col gap-3">
         <BlurFade inView>
-          <TitleSection title="Projects" />
+          <TitleSection title="Projetos" />
+        </BlurFade>
+        <BlurFade inView>
+          <Project
+            name="almeida-terraplenagem"
+            description="projeto feito para cliente"
+          />
         </BlurFade>
 
         <BlurFade inView>
-          <Project name="pizza-shop" description="project made by gus" />
+          <Project name="pizza-shop" description="projeto feito para estudos" />
         </BlurFade>
         <BlurFade inView>
-          <Project name="ignite-timer" description="project made by gus" />
+          <Project
+            name="ignite-timer"
+            description="projeto feito para estudos"
+          />
         </BlurFade>
       </div>
 
       <div>
         <BlurFade inView>
-          <TitleSection title="About" />
+          <TitleSection title="Entrar em contato" />
+
+          <Button className="dark:bg-emerald-950/40 dark:text-emerald-100 dark:hover:bg-emerald-950/80">
+            Quero produzir o meu site
+          </Button>
+        </BlurFade>
+      </div>
+
+      <div>
+        <BlurFade inView>
+          <TitleSection title="Sobre" />
         </BlurFade>
         <About />
       </div>
 
       <div>
         <BlurFade inView>
-          <TitleSection title="Connect" />
+          <TitleSection title="Contatos" />
         </BlurFade>
         <div className="flex items-center gap-3 flex-wrap">
           <BlurFade inView>
@@ -88,6 +107,15 @@ export default function Home() {
             </Button>
           </BlurFade>
         </div>
+      </div>
+      <div>
+        <BlurFade inView>
+          <TitleSection title="Quero ter um site para minha empresa" />
+
+          <Button className="dark:bg-emerald-950/40 dark:text-emerald-100 dark:hover:bg-emerald-950/80">
+            Entrar em contato
+          </Button>
+        </BlurFade>
       </div>
 
       <div className="fixed bottom-6 right-6 shadow-xl">
