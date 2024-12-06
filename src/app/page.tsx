@@ -20,20 +20,14 @@ export default function Home() {
           <TitleSection title="Projetos" />
         </BlurFade>
         <BlurFade inView>
-          <Project
-            name="almeida-terraplenagem"
-            description="projeto feito para cliente"
-          />
+          <Project name="almeida-terraplenagem" />
         </BlurFade>
 
         <BlurFade inView>
-          <Project name="pizza-shop" description="projeto feito para estudos" />
+          <Project name="pizza-shop" />
         </BlurFade>
         <BlurFade inView>
-          <Project
-            name="ignite-timer"
-            description="projeto feito para estudos"
-          />
+          <Project name="ignite-timer" />
         </BlurFade>
       </div>
 
@@ -41,9 +35,7 @@ export default function Home() {
         <BlurFade inView>
           <TitleSection title="Entrar em contato" />
 
-          <Button className="dark:bg-emerald-950/40 dark:text-emerald-100 dark:hover:bg-emerald-950/80">
-            Quero produzir o meu site
-          </Button>
+          <Button variant={'outline'}>Quero produzir o meu site</Button>
         </BlurFade>
       </div>
 
@@ -68,9 +60,10 @@ export default function Home() {
               <Link
                 href={'https://www.linkedin.com/in/gustavo-camargo-4b825b189/'}
                 target="_blank"
+                className="flex items-center"
               >
                 <Linkedin className="text-neutral-600 dark:text-neutral-400 size-6" />
-                <span className="text-neutral-600 dark:text-neutral-400 text-lg leading-none">
+                <span className="text-neutral-600 dark:text-neutral-400 text-base md:text-lg leading-none">
                   Linkedin
                 </span>
               </Link>
@@ -83,9 +76,13 @@ export default function Home() {
               className="flex items-end gap-2"
               asChild
             >
-              <Link href={'https://www.github.com/gusfngg'} target="_blank">
+              <Link
+                href={'https://www.github.com/gusfngg'}
+                target="_blank"
+                className="flex items-center"
+              >
                 <Github className="text-neutral-600 dark:text-neutral-400 size-6" />
-                <span className="text-neutral-600 dark:text-neutral-400 text-lg leading-none">
+                <span className="text-neutral-600 dark:text-neutral-400 text-base md:text-lg leading-none">
                   Github
                 </span>
               </Link>
@@ -98,7 +95,11 @@ export default function Home() {
               className="flex items-end gap-2"
               asChild
             >
-              <Link href={'https://www.instagram.com/gs.gus'} target="_blank">
+              <Link
+                href={'https://www.instagram.com/gs.gus'}
+                target="_blank"
+                className="flex items-center"
+              >
                 <Instagram className=" text-neutral-600 dark:text-neutral-400 size-5" />
                 <span className="text-neutral-600 dark:text-neutral-400 text-lg leading-none">
                   Instagram
@@ -112,9 +113,7 @@ export default function Home() {
         <BlurFade inView>
           <TitleSection title="Quero ter um site para minha empresa" />
 
-          <Button className="dark:bg-emerald-950/40 dark:text-emerald-100 dark:hover:bg-emerald-950/80">
-            Entrar em contato
-          </Button>
+          <Button variant={'outline'}>Entrar em contato</Button>
         </BlurFade>
       </div>
 
