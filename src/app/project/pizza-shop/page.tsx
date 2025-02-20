@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Github, Undo2 } from 'lucide-react'
+import { Github } from 'lucide-react'
 import Image from 'next/image'
 import PizzaShopImage from '@/assets/pizza-shop.png'
 import PizzaShopImage2 from '@/assets/pizza-shop2.png'
@@ -8,13 +8,6 @@ import { Button } from '@/components/ui/button'
 export default function PizzaShop() {
   return (
     <div>
-      <Link
-        className="flex items-center gap-2 absolute left-[19rem]"
-        href={'/'}
-      >
-        <Undo2 size={12} />
-        <span className="text-sm font-medium">back</span>
-      </Link>
       <div>
         <h1 className="text-base text-primary font-medium leading-none">
           Pizza-shop

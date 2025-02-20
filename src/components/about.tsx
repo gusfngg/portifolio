@@ -6,8 +6,8 @@ export function About() {
       <BlurFade inView>
         <p className="text-neutral-800 dark:text-neutral-300 text-sm  md:text-base text-justify lg:text-left">
           Meu nome é Gustavo Camargo, sou Desenvolvedor Full Stack e moro no
-          estado de São Paulo. Atualmente estou concluindo com previsão de
-          término de faculdade em 2028.
+          estado de São Paulo. Atualmente estou concluindo o ensino médio e
+          previsão para da término de faculdade em 2028.
         </p>
       </BlurFade>
 

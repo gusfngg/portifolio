@@ -1,4 +1,3 @@
-import { ButtonBack } from '@/components/button-back'
 import Image from 'next/image'
 import AlmeidaImage from '@/assets/almeidaterraplenagem.png'
 import { Button } from '@/components/ui/button'
@@ -8,8 +7,6 @@ import { ExternalLinkIcon } from 'lucide-react'
 export default function AlmeidaTerraplenagem() {
   return (
     <div>
-      <ButtonBack />
-
       <div>
         <h1 className="text-base text-primary font-semibold leading-none">
           Almeida terraplenagem
