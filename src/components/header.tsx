@@ -42,6 +42,8 @@ export default function Header() {
           </Link>
         </div>
       </nav>
+
+      <div className="border mt-6 rounded-b-2xl"></div>
     </header>
   )
 }
