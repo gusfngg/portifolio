@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className="mx-auto max-w-prose my-10">
-      <nav className="flex items-center flex-col justify-between sm:flex-row max-sm:gap-6">
+      <nav className="flex items-end md:items-center flex-co text-sm sm:text-base justify-between sm:flex-row max-sm:gap-6">
         <Link
           href={'/'}
           className="relative flex no-underline items-center sm:flex-row max-sm:gap-6"
