@@ -1,5 +1,4 @@
 import { About } from '@/components/about'
-import { CommandShow } from '@/components/command-show'
 import { TitleSection } from '@/components/title-section'
 import { ArrowUpRight, Github, Instagram, Linkedin } from 'lucide-react'
 import Link from 'next/link'
@@ -65,10 +64,6 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </div>
-
-      <div className="fixed bottom-6 right-6 shadow-xl">
-        <CommandShow />
       </div>
     </div>
   )
