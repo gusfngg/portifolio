@@ -12,7 +12,7 @@ export default function AlmeidaTerraplenagem() {
           Almeida terraplenagem
         </h1>
 
-        <p className="text-neutral-700 text-sm md:text-base dark:text-neutral-400 mt-4">
+        <p className="text-neutral-600 text-sm md:text-base dark:text-neutral-400 mt-4">
           A Almeida Terraplenagem é uma empresa especializada em serviços de
           terraplenagem, que atua com qualidade e precisão no preparo de
           terrenos para construções, pavimentações e projetos de infraestrutura.
@@ -21,7 +21,7 @@ export default function AlmeidaTerraplenagem() {
           segurança e a eficácia em todas as etapas do processo.
         </p>
 
-        <p className="text-neutral-700 text-sm md:text-base dark:text-neutral-400 mt-4">
+        <p className="text-neutral-600 text-sm md:text-base dark:text-neutral-400 mt-4">
           Aplicação feita com as tecnologias mais recentes do mercado. As
           principais são: - Next.js, TypeScript, Shadcn ui...
         </p>

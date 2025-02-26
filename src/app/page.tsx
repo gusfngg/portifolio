@@ -1,8 +1,7 @@
 import { About } from '@/components/about'
 import { CommandShow } from '@/components/command-show'
 import { TitleSection } from '@/components/title-section'
-import { Button } from '@/components/ui/button'
-import { Github, Instagram, Linkedin } from 'lucide-react'
+import { ArrowUpRight, Github, Instagram, Linkedin } from 'lucide-react'
 import Link from 'next/link'
 
 export default function Home() {
@@ -15,45 +14,56 @@ export default function Home() {
       <div>
         <TitleSection title="Contatos" />
 
-        <div className="flex items-center gap-3 flex-wrap">
-          <Button variant={'outline'} className="flex items-end gap-2" asChild>
+        <div className="flex flex-col gap-3">
+          <div className="border-[1.5px] hover:bg-zinc-100 dark:hover:bg-neutral-900 px-4 py-3 rounded cursor-pointer">
             <Link
               href={'https://www.linkedin.com/in/gustavo-camargo-4b825b189/'}
               target="_blank"
-              className="flex items-center"
+              className="flex justify-between"
             >
-              <Linkedin className="text-neutral-600 dark:text-neutral-400 size-6" />
-              <span className="text-neutral-600 dark:text-neutral-400 text-base md:text-lg leading-none">
-                Linkedin
-              </span>
-            </Link>
-          </Button>
+              <div className="flex items-end gap-3">
+                <Linkedin className="text-neutral-600 dark:text-neutral-400 size-5" />
+                <span className="text-neutral-600 dark:text-neutral-400 leading-none">
+                  Linkedin
+                </span>
+              </div>
 
-          <Button variant={'outline'} className="flex items-end gap-2" asChild>
+              <ArrowUpRight className="text-neutral-400" />
+            </Link>
+          </div>
+
+          <div className="border-[1.5px] hover:bg-zinc-100 dark:hover:bg-neutral-900 px-4 py-3 rounded cursor-pointer">
             <Link
               href={'https://www.github.com/gusfngg'}
               target="_blank"
-              className="flex items-center"
+              className="flex justify-between"
             >
-              <Github className="text-neutral-600 dark:text-neutral-400 size-6" />
-              <span className="text-neutral-600 dark:text-neutral-400 text-base md:text-lg leading-none">
-                Github
-              </span>
-            </Link>
-          </Button>
+              <div className="flex items-end gap-3">
+                <Github className="text-neutral-600 dark:text-neutral-400 size-5" />
+                <span className="text-neutral-600 dark:text-neutral-400 leading-none">
+                  Github
+                </span>
+              </div>
 
-          <Button variant={'outline'} className="flex items-end gap-2" asChild>
+              <ArrowUpRight className="text-neutral-400" />
+            </Link>
+          </div>
+          <div className="border-[1.5px] hover:bg-zinc-100 dark:hover:bg-neutral-900 px-4 py-3 rounded cursor-pointer">
             <Link
               href={'https://www.instagram.com/gs.gus'}
               target="_blank"
-              className="flex items-center"
+              className="flex justify-between"
             >
-              <Instagram className=" text-neutral-600 dark:text-neutral-400 size-5" />
-              <span className="text-neutral-600 dark:text-neutral-400 text-lg leading-none">
-                Instagram
-              </span>
+              <div className="flex items-end gap-3">
+                <Instagram className="text-neutral-600 dark:text-neutral-400 size-5" />
+                <span className="text-neutral-600 dark:text-neutral-400 leading-none">
+                  Instagram
+                </span>
+              </div>
+
+              <ArrowUpRight className="text-neutral-400" />
             </Link>
-          </Button>
+          </div>
         </div>
       </div>
 

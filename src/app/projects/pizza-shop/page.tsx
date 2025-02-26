@@ -13,7 +13,7 @@ export default function PizzaShop() {
           Pizza-shop
         </h1>
 
-        <p className="text-neutral-700 text-sm md:text-base dark:text-neutral-400 mt-4">
+        <p className="text-neutral-600 text-sm md:text-base dark:text-neutral-400 mt-4">
           Pizza Shop é uma aplicação web desenvolvida em TypeScript e ReactJS,
           focada no gerenciamento eficiente de pedidos. Utilizando Vite para
           performance e Styled-components. Oferece uma interface otimizada e de
