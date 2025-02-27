@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-[85px]">
+    <div className="flex flex-col gap-[60px]">
       <div>
         <About />
       </div>
@@ -14,7 +14,7 @@ export default function Home() {
         <TitleSection title="Contatos" />
 
         <div className="flex flex-col gap-3">
-          <div className="border-[1.5px] hover:bg-zinc-100 dark:hover:bg-neutral-900 px-4 py-3 rounded cursor-pointer">
+          <div className="border-[1.5px] hover:bg-zinc-100 dark:hover:bg-neutral-900 hover:border-transparent px-4 py-3 rounded cursor-pointer">
             <Link
               href={'https://www.linkedin.com/in/gustavo-camargo-4b825b189/'}
               target="_blank"
@@ -31,7 +31,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="border-[1.5px] hover:bg-zinc-100 dark:hover:bg-neutral-900 px-4 py-3 rounded cursor-pointer">
+          <div className="border-[1.5px] hover:bg-zinc-100 dark:hover:bg-neutral-900 hover:border-transparent px-4 py-3 rounded cursor-pointer">
             <Link
               href={'https://www.github.com/gusfngg'}
               target="_blank"
@@ -47,7 +47,7 @@ export default function Home() {
               <ArrowUpRight className="text-neutral-400" />
             </Link>
           </div>
-          <div className="border-[1.5px] hover:bg-zinc-100 dark:hover:bg-neutral-900 px-4 py-3 rounded cursor-pointer">
+          <div className="border-[1.5px] hover:bg-zinc-100 dark:hover:bg-neutral-900 hover:border-transparent px-4 py-3 rounded cursor-pointer">
             <Link
               href={'https://www.instagram.com/gs.gus'}
               target="_blank"
