@@ -3,6 +3,7 @@ import AlmeidaImage from '@/assets/almeidaterraplenagem.png'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { ExternalLinkIcon } from 'lucide-react'
+import Stack from '@/components/stack'
 
 export default function AlmeidaTerraplenagem() {
   return (
@@ -25,6 +26,12 @@ export default function AlmeidaTerraplenagem() {
           Aplicação feita com as tecnologias mais recentes do mercado. As
           principais são: - Next.js, TypeScript, Shadcn ui...
         </p>
+
+        <div className="flex items-center gap-2 mt-5">
+          <Stack stack="JavaScript" />
+          <Stack stack="NodeJs" />
+          <Stack stack="C#" />
+        </div>
 
         <Image className="mt-8 rounded-xl border-2" src={AlmeidaImage} alt="" />
 
