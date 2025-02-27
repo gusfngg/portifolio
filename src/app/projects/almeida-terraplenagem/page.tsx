@@ -9,7 +9,7 @@ export default function AlmeidaTerraplenagem() {
   return (
     <div>
       <div>
-        <h1 className="text-base text-primary font-semibold leading-none">
+        <h1 className="text-base text-primary font-medium leading-none">
           Almeida terraplenagem
         </h1>
 
@@ -22,15 +22,10 @@ export default function AlmeidaTerraplenagem() {
           segurança e a eficácia em todas as etapas do processo.
         </p>
 
-        <p className="text-neutral-600 text-sm md:text-base dark:text-neutral-400 mt-4">
-          Aplicação feita com as tecnologias mais recentes do mercado. As
-          principais são: - Next.js, TypeScript, Shadcn ui...
-        </p>
-
         <div className="flex items-center gap-2 mt-5">
-          <Stack stack="JavaScript" />
-          <Stack stack="NodeJs" />
-          <Stack stack="C#" />
+          <Stack stack="TypeScript" />
+          <Stack stack="NextJs" />
+          <Stack stack="TailwindCSS" />
         </div>
 
         <Image className="mt-8 rounded-xl border-2" src={AlmeidaImage} alt="" />

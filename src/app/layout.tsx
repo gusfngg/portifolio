@@ -25,8 +25,7 @@ export default function RootLayout({
           [&::-webkit-scrollbar-thumb]:bg-neutral-800
           dark:[&::-webkit-scrollbar-track]:bg-neutral-900
           dark:[&::-webkit-scrollbar-thumb]:bg-neutral-800
-          selection:bg-emerald-100
-          dark:selection:bg-emerald-950
+          selection:bg-cyan-950
           >`}
       >
         <div className="min-h-full px-6 py-10">

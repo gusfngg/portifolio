@@ -37,7 +37,7 @@ export default function Header() {
             /projetos
             <div
               data-is-current-path={path === '/projects'}
-              className="hidden data-[is-current-path=true]:block size-[5px] bg-emerald-600 absolute rounded-full left-1/2"
+              className="hidden data-[is-current-path=true]:block size-[5px] bg-cyan-600 absolute rounded-full left-1/2"
             />
           </Link>
         </div>

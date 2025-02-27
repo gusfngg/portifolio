@@ -4,6 +4,7 @@ import Image from 'next/image'
 import PizzaShopImage from '@/assets/pizza-shop.png'
 import PizzaShopImage2 from '@/assets/pizza-shop2.png'
 import { Button } from '@/components/ui/button'
+import Stack from '@/components/stack'
 
 export default function PizzaShop() {
   return (
@@ -19,6 +20,12 @@ export default function PizzaShop() {
           performance e Styled-components. Oferece uma interface otimizada e de
           fácil uso.
         </p>
+
+        <div className="flex items-center gap-2 mt-5">
+          <Stack stack="TypeScript" />
+          <Stack stack="ReactJs" />
+          <Stack stack="Styled-components" />
+        </div>
 
         <Image
           className="mt-8 rounded-xl border-2"
@@ -37,8 +44,8 @@ export default function PizzaShop() {
           asChild
         >
           <Link href={'https://almeidaterraplenagem.com.br'} target="_blank">
-            <Github className="text-neutral-600 dark:text-neutral-400 size-6" />
-            <span className="text-neutral-600 dark:text-neutral-400 text-lg leading-none">
+            <Github className="text-neutral-600 dark:text-neutral-400 size-4" />
+            <span className="text-neutral-600 dark:text-neutral-400  leading-none">
               Acesse o github do projeto
             </span>
           </Link>
