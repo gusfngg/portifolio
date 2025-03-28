@@ -22,7 +22,7 @@ export default function Home() {
             >
               <div className="flex items-end gap-3">
                 <Linkedin className="text-neutral-600 dark:text-neutral-400 size-5" />
-                <span className="text-neutral-600 dark:text-neutral-400 leading-none">
+                <span className="text-neutral-600 text-lg dark:text-neutral-400 leading-none">
                   Linkedin
                 </span>
               </div>
@@ -30,7 +30,6 @@ export default function Home() {
               <ArrowUpRight className="text-neutral-400" />
             </Link>
           </div>
-
           <div className="border-[1.5px] hover:bg-zinc-100 dark:hover:bg-neutral-900 hover:border-transparent px-4 py-3 rounded cursor-pointer">
             <Link
               href={'https://www.github.com/gusfngg'}
@@ -39,7 +38,7 @@ export default function Home() {
             >
               <div className="flex items-end gap-3">
                 <Github className="text-neutral-600 dark:text-neutral-400 size-5" />
-                <span className="text-neutral-600 dark:text-neutral-400 leading-none">
+                <span className="text-neutral-600 text-lg dark:text-neutral-400 leading-none">
                   Github
                 </span>
               </div>
@@ -55,7 +54,7 @@ export default function Home() {
             >
               <div className="flex items-end gap-3">
                 <Instagram className="text-neutral-600 dark:text-neutral-400 size-5" />
-                <span className="text-neutral-600 dark:text-neutral-400 leading-none">
+                <span className="text-neutral-600 text-lg dark:text-neutral-400 leading-none">
                   Instagram
                 </span>
               </div>

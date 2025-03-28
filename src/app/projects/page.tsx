@@ -8,7 +8,6 @@ export default function Projects() {
       <Project name="almeida-terraplenagem" date="30-10-2024" />
       <Project name="pizza-shop" date="09-08-2024" />
       <Project name="ignite-timer" date="15-06-2024" />
-      <Project name="git-fav" date="30-08-2024" />
     </div>
   )
 }

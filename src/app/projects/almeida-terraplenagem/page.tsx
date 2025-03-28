@@ -2,8 +2,6 @@ import Image from 'next/image'
 import AlmeidaImage from '@/assets/almeidaterraplenagem.png'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import { ExternalLinkIcon } from 'lucide-react'
-import Stack from '@/components/stack'
 
 export default function AlmeidaTerraplenagem() {
   return (
@@ -22,12 +20,6 @@ export default function AlmeidaTerraplenagem() {
           segurança e a eficácia em todas as etapas do processo.
         </p>
 
-        <div className="flex items-center gap-2 mt-5">
-          <Stack stack="TypeScript" />
-          <Stack stack="NextJs" />
-          <Stack stack="TailwindCSS" />
-        </div>
-
         <Image className="mt-8 rounded-xl border-2" src={AlmeidaImage} alt="" />
 
         <Button
@@ -35,10 +27,12 @@ export default function AlmeidaTerraplenagem() {
           className="flex items-center gap-2 mt-6"
           asChild
         >
-          <Link href={'https://github.com/gusfngg/pizza-shop'} target="_blank">
-            <ExternalLinkIcon className="text-neutral-600 dark:text-neutral-400 size-6" />
+          <Link
+            href={'https://github.com/gusfngg/almeida-terraplenagem'}
+            target="_blank"
+          >
             <span className="text-neutral-600 dark:text-neutral-400 text-lg leading-none">
-              Acesse o site
+              Acesse o projeto
             </span>
           </Link>
         </Button>

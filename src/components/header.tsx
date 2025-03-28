@@ -2,18 +2,19 @@
 
 import { ChevronLeft } from 'lucide-react'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 
 export default function Header() {
   const path = usePathname()
+  const router = useRouter()
   const isHome = path === '/'
 
   return (
     <header className="mx-auto max-w-prose my-10">
       <nav className="flex items-center flex-col text-sm md:text-base justify-between sm:flex-row max-sm:gap-6">
-        <Link
-          href={'/'}
-          className="relative flex no-underline items-center sm:flex-row max-sm:gap-6"
+        <button
+          onClick={() => router.back()}
+          className="relative flex no-underline items-center sm:flex-row max-sm:gap-6 cursor-pointer"
         >
           <div
             data-is-home={isHome}
@@ -22,15 +23,17 @@ export default function Header() {
             <ChevronLeft />
           </div>
 
-          <div className="flex w-full flex-col cursor-normal ">
-            <span className="text-lg font-semibold">Gustavo Camargo</span>
+          <div className="flex w-full flex-col cursor-normal">
+            <span className="text-lg text-start  font-semibold">
+              Gustavo Camargo
+            </span>
             <div>
               <span className="text-neutral-600 dark:text-neutral-300 font-mono text-sm">
                 desenvolvedor de software
               </span>
             </div>
           </div>
-        </Link>
+        </button>
 
         <div className="items-center flex gap-6">
           <Link className="relative" href="/projects">
